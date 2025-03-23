@@ -2,7 +2,7 @@ const SearchFrom = document.getElementById('search-form')
 const SearchBox = document.getElementById('search-box')
 const SearchResult = document.getElementById('search-result')
 const ShowMore = document.getElementById('show-more')
-const AccessKey = config.API_key;
+const AccessKey = API_key;
 let keyword =''
 let page = 1
 
