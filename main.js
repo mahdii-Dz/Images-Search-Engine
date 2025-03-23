@@ -20,7 +20,6 @@ async function SearchImage() {
             imgResult.src = result.urls.small;
             SearchResult.appendChild(imgResult)
         })
-        console.log(results);
         
         if(results != ''){
             ShowMore.style.display = 'block'
